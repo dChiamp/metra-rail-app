@@ -11,9 +11,11 @@ a {
 
 .status {height: 10rem; width: 10rem; display: inline-block; border-radius: 100%; position: relative;}
 
-.status .destination { position: absolute; top: 3rem; right: 0rem; width: 100%; }
+.status #green-destination { position: absolute; top: 3rem; right: 0rem; width: 100%; }
+.status #yellow-destination { position: absolute; top: 3rem; right: 0rem; width: 100%; }
 
-.status .ttd { position: absolute; top: 5rem; right: 0rem; width: 100%; }
+.status #green-ttd { position: absolute; top: 5rem; right: 0rem; width: 100%; }
+.status #yellow-ttd { position: absolute; top: 5rem; right: 0rem; width: 100%; }
 
 #red  {background-color: red; }
 #yellow  {background-color: yellow; }

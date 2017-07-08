@@ -71,14 +71,16 @@ $( document ).ready(function() {
       // $("#green, #yellow").addClass('hide');
     } else if  (time >= 6 && time <= 9 ) {
       $("#yellow").removeClass('hide');
+        $("#yellow-destination").text(destination);
+        $("#yellow-ttd").text(time.toString());
 
     } else if (time >= 9 && time <= 13 ) {
       console.log('time', time)
 
       $("#green").removeClass('hide');
       
-      $(".destination").text(destination);
-      $(".ttd").text(time.toString());
+      $("#green-destination").text(destination);
+      $("#green-ttd").text(time.toString());
       
     } else {
       console.log('time', time, 'not worth it')
